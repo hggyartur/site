@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        // Функция на нажатие кнопки "Отправить"
+        function sendEmail() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+            // Отправка отправки через email
+            alert("Отправлена отк populate")
+        }
+    </script>
+</head>
+<body>
+
+<a href="document.htm" class="logo-link"><img src="C:\Users\artur\Pictures\2014_Black_Labrador_head_(mirror).jpg" alt="Лogo" width="100"></a>
+
+<h1>Контакты</h1>
+
+<form id="contact-form">
+    <label for="name">Имя:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="message">Сообщение:</label>
+    <textarea id="message" name="message"></textarea><br><br>
+    <input type="submit" value="Отправить">
+</form>
+
+</body>
+</html>

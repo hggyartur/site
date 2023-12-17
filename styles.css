@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-link {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   box-sizing: border-box;
+}
+
+input[type="email"], textarea {
+    width: 100%;
+    padding-left: 20px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+.sent-mail {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sent-mail:hover {
+    background-color: #3e8e41;
+}
+
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+.square-list {
+    list-style-type: square;
+}
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Стили для логотипа */
+.logo-link img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Стили для анимированной собаки */
+img[alt="Анимированная собака"] {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Стили ссылок-кнопок */
+a {
+    text-decoration: none;
+    color: white;
+    background-color: #556B2F;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: #6B8E23;
+}
+
+/* Стили для списков */
+ol {
+    padding-left: 20px;
+}
+
+ul.square-list {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Стили для фреймов */
+frameset {
+    border: none; /* Убрать стандартные границы фреймов */
+}
+
+frame {
+    background-color: #fff; /* Фон каждого фрейма */
+}
+
+/* Дополнительные стилизации */
+/* Можно стилизовать другие элементы Вашей страницы */
+
